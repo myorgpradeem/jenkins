@@ -3,7 +3,7 @@ pipeline {
         label 'ubuntu_slave'
     }
     stages {
-        stage ('build') {
+        stage ('random') {
             steps {
                 sh "uptime"
             }
